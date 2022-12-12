@@ -27,6 +27,8 @@ As we can see above, the db folder contains two primary files that connect our d
 
 Step 1: In Mongoose, I created a database with a collection called users. This collection contains the information of persons who filled out the yoga class registration form.
 
+![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/3.png?raw=true)
+
 Step 2: I created a.env file in the github-mentioned subdirectory. This file includes the Mongoose database URL that we built.
 
 Step 3: The database is linked in the dbConnect.js file using the.env file, which contains the MongoDb URL.
