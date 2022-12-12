@@ -69,7 +69,7 @@ In the frontend code we created few functions:-
 
 - return() - it includes all the HTML part,designing, alignment of the form fields.
 
-![code] (https://github.com/aanchal2320/yoga-backend/blob/main/images/14.png?raw=true)
+
 
 ## The fields included in the frontend of the form are:-
 
