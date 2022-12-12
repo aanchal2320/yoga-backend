@@ -20,6 +20,10 @@ This github repository contains all of the backend's files and code. The fronten
 
 - MongoDb
 
+-Bootstrap
+
+-nodejs
+
 ## About yoga-backend
 
 In this code, we constructed a MongoDb database and linked it to our form.
