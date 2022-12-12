@@ -13,14 +13,14 @@ This github repository contains all of the backend's files and code. The fronten
 
 - Reactjs
 
+* Bootstrap
+
 ## Backend
 - HTML
 
 - CSS
 
 - MongoDb
-
-* Bootstrap
 
 * nodejs
 
@@ -35,7 +35,6 @@ Step 1: In Mongoose, I created a database with a collection called users. This c
 
 Step 2: I created a.env file in the github-mentioned subdirectory. This file includes the Mongoose database URL that we built.
 
-![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/7.png?raw=true)
 
 Step 3: The database is linked in the dbConnect.js file using the.env file, which contains the MongoDb URL.
 
@@ -101,7 +100,7 @@ In the frontend code we created few functions:-
 
 
 
-## Screenshots
+## Snapshots
 
 ![Registration Form](https://github.com/aanchal2320/yoga-backend/blob/main/images/4.png?raw=true)
 
