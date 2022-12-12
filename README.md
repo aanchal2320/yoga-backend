@@ -47,6 +47,7 @@ Step 5: The app.js code connects to the database and sends the information given
 
 After that, we execute our backend with the command "nodemon app.js," and our database is launched on the server localhost:3000.
 
+![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/11.png?raw=true)
 
 
 ## About the frontend
@@ -58,11 +59,17 @@ In the frontend code we created few functions:-
 
 - Register()- this is the main function which includes all the use states of the fields whcih are to be entered by the user.
 
+![code](https://github.com/aanchal2320/yoga-backend/blob/main/images/8.png?raw=true)
+
 - handlePayment()- this is a dummy function which clicking the payment button alerts with a message that payment is successful and if any other field do not passes the validation it alerts that a particular field is not valid hence payment cannot be done.
+
+![code](https://github.com/aanchal2320/yoga-backend/blob/main/images/12.png?raw=true)
 
 - handlesubmit()- it checks if age entered by the user is between 18 to 65, if yes then submission of the form is possible else a message is popped that age is invalid.
 
 - return() - it includes all the HTML part,designing, alignment of the form fields.
+
+![code] (https://github.com/aanchal2320/yoga-backend/blob/main/images/14.png?raw=true)
 
 ## The fields included in the frontend of the form are:-
 
