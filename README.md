@@ -115,4 +115,4 @@ In the frontend code we created few functions:-
 
 
 ## Frontend repository link
-![link](https://github.com/aanchal2320/yoga-frontend)
+https://github.com/aanchal2320/yoga-frontend
