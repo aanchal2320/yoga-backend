@@ -16,9 +16,6 @@ This github repository contains all of the backend's files and code. The fronten
 * Bootstrap
 
 ## Backend
-- HTML
-
-- CSS
 
 - MongoDb
 
