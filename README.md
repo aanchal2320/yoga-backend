@@ -13,12 +13,13 @@ This github repository contains all of the backend's files and code. The fronten
 
 - Reactjs
 
-## Backend
-- HTML
+* Bootstrap
 
-- CSS
+## Backend
 
 - MongoDb
+
+* nodejs
 
 ## About yoga-backend
 
@@ -31,7 +32,6 @@ Step 1: In Mongoose, I created a database with a collection called users. This c
 
 Step 2: I created a.env file in the github-mentioned subdirectory. This file includes the Mongoose database URL that we built.
 
-![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/7.png?raw=true)
 
 Step 3: The database is linked in the dbConnect.js file using the.env file, which contains the MongoDb URL.
 
@@ -41,12 +41,12 @@ Step 4: Within the db folder, I constructed a userModel.js file This file contai
 
 ![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/6.png?raw=true)
 
-Step 5: The app.js code connects to the database and sends the information given by the user in the registration form to Postman.
 
 ![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/10.png?raw=true)
 
 After that, we execute our backend with the command "nodemon app.js," and our database is launched on the server localhost:3000.
 
+![database](https://github.com/aanchal2320/yoga-backend/blob/main/images/11.png?raw=true)
 
 
 ## About the frontend
@@ -58,11 +58,17 @@ In the frontend code we created few functions:-
 
 - Register()- this is the main function which includes all the use states of the fields whcih are to be entered by the user.
 
+![code](https://github.com/aanchal2320/yoga-backend/blob/main/images/8.png?raw=true)
+
 - handlePayment()- this is a dummy function which clicking the payment button alerts with a message that payment is successful and if any other field do not passes the validation it alerts that a particular field is not valid hence payment cannot be done.
+
+![code](https://github.com/aanchal2320/yoga-backend/blob/main/images/12.png?raw=true)
 
 - handlesubmit()- it checks if age entered by the user is between 18 to 65, if yes then submission of the form is possible else a message is popped that age is invalid.
 
 - return() - it includes all the HTML part,designing, alignment of the form fields.
+
+
 
 ## The fields included in the frontend of the form are:-
 
@@ -91,7 +97,7 @@ In the frontend code we created few functions:-
 
 
 
-## Screenshots
+## Snapshots
 
 ![Registration Form](https://github.com/aanchal2320/yoga-backend/blob/main/images/4.png?raw=true)
 
@@ -103,3 +109,7 @@ In the frontend code we created few functions:-
 
 
 ![Unsuccessful registration](https://github.com/aanchal2320/yoga-backend/blob/main/images/9.png?raw=true)
+
+
+## Frontend repository link
+https://github.com/aanchal2320/yoga-frontend
